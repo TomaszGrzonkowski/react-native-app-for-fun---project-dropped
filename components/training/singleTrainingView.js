@@ -2,7 +2,7 @@
 import { View, Text, StyleSheet, AsyncStorage, ScrollView} from 'react-native'
 import React, { useRef, useState, useEffect } from 'react';
 import useFocusEffect from '@react-navigation/native'
-import YoutubePlayer from 'react-native-youtube-iframe'
+import YoutubePlayer from '../Exercise/node_modules/react-native-youtube-iframe'
 
 const SingleTrainingView = ({ route }) => {
     const playerRef = useRef(null);
